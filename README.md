@@ -54,7 +54,7 @@ Design and implement a robotic arm capable of picking up small metallic objects 
 
 ## 💻 Arduino Code
 
-The main Arduino sketch is in `robot_arm.ino`. It includes:
+The main Arduino sketch is in `PickandPlace_Robot.cpp`. It includes:
 - `EndEffector` class to manage electromagnet control.
 - Smooth servo rotation through gradual positioning.
 - Homing and referencing of the vertical axis.
@@ -65,10 +65,11 @@ The main Arduino sketch is in `robot_arm.ino`. It includes:
 ## ▶️ Usage
 
 1. Assemble the mechanical frame and wiring.
-2. Upload `robot_arm.ino` to the Arduino UNO.
-3. Power the circuit using a 12V 5A SMPS.
-4. Press the button to start the loop.
-5. The robot will automatically run through the predefined pick and place routine.
+2. Change the extension of the sketch from `.cpp` to `.ino`
+3. Upload `PickandPlace_Robot.ino` to the Arduino UNO.
+4. Power the circuit using a 12V 5A SMPS.
+5. Press the button to start the loop.
+6. The robot will automatically run through the predefined pick and place routine.
 
 ---
 
